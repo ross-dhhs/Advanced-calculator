@@ -1,0 +1,42 @@
+using system;
+
+namepsace advanced calculator
+{
+  class program
+  {
+    static void Main {string{} args)
+    {
+      Console.Write("Enter a number: ");
+      double num1 = Convert.ToDouble(Console.ReadLine());
+      
+      Console.Write ("Enter Operator: ");
+      string op = Console.ReadLine();
+      
+      Console.Write("Enter a number: ");
+      double num2 = Convert.ToDouble(Console.ReadLine());
+      
+      if (op == "+")
+      {
+        console.Writeline(num1 + num2);
+      }
+      else if (op == "-")
+      {
+        console.Writeline(num1 - num2);
+      }
+      else if (op == "/")
+      {
+        console.Writeline(num1 / num2);
+      }
+      else if (op == "*")
+      {
+        console.Writeline(num1 * num2);
+      }
+      else
+      {
+        Console.Writeline("Invalid operator");
+      }
+      
+      Console.ReadLine();
+    }
+  }
+}
