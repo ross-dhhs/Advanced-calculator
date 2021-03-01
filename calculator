@@ -1,6 +1,6 @@
 using system;
 
-namepsace advanced calculator
+namespace advanced-calculator
 {
   class program
   {
@@ -17,23 +17,23 @@ namepsace advanced calculator
       
       if (op == "+")
       {
-        console.Writeline(num1 + num2);
+        Console.WriteLine(num1 + num2);
       }
       else if (op == "-")
       {
-        console.Writeline(num1 - num2);
+        Console.WriteLine(num1 - num2);
       }
       else if (op == "/")
       {
-        console.Writeline(num1 / num2);
+        Console.WriteLine(num1 / num2);
       }
       else if (op == "*")
       {
-        console.Writeline(num1 * num2);
+        Console.WriteLine(num1 * num2);
       }
       else
       {
-        Console.Writeline("Invalid operator");
+        Console.WriteLine("Invalid operator");
       }
       
       Console.ReadLine();
